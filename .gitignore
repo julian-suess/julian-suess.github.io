@@ -1,3 +1,4 @@
 
 .DS_Store
-_site/404.html
+_site/*
+.sass-cache

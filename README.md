@@ -1,6 +1,6 @@
 # Readme
 
-Dies ist eine kleines Projekt, um die Entwicklung von statischen Seiten mit Elm auszuprobieren.
+Dies ist eine kleines Projekt, um die Entwicklung von statischen Seiten mit [Elm](https://elm-lang.org) auszuprobieren.
 
 ## Struktur
 
@@ -21,3 +21,20 @@ Mittels `bash watch.sh elm` wird das src-Verzeichnis überwacht und bei Verände
 ## Run
 
 Einfach die `index.html` von einem lokalen Server laufen lassen, z.B. mit `serve`.
+
+# create-elm-app
+
+Ein kleines Skript, das einem das Elm-Leben erleichtern soll.
+
+```
+bash create-elm-app.sh
+```
+
+Legt ein elm-Projekt an und fügt eine `index.html`, sowie ein stylesheet und eine [Beispiel](https://elm-lang.org/examples/buttons) `Main.elm` an.
+Außedem legt es ein `build.sh` und `watch.sh` an.
+
+```
+bash create-elm-app.sh bulma
+```
+
+Fügt zusätzlich noch [Bulma](https://bulma.io) hinzu.
